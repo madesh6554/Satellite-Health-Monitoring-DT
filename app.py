@@ -40,7 +40,8 @@ class DatabaseManager:
             host=DB_CONFIG["host"],
             user=DB_CONFIG["user"],
             password=DB_CONFIG["password"],
-            database=DB_CONFIG["database"]
+            database=DB_CONFIG["database"],
+            port=os.getenv("DB_PORT", "3306")
         )
         return self.conn.cursor()
     
