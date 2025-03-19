@@ -1,0 +1,9 @@
+streamlit
+mysql-connector-python
+pandas
+joblib
+numpy
+scikit-learn
+plotly
+python-dotenv
+st-autorefresh
