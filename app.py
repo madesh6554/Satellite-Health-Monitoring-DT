@@ -123,7 +123,7 @@ class DataGenerator:
         for param, config in self.param_config.items():
             if param != "timestamp":
                 data[param] = self._generate_value(config)
-        if random.random() < 0.50:
+        if random.random() < 0.07:
             anomaly_type = random.choice(["power", "thermal", "aocs", "payload"])
             if anomaly_type == "power":
                 data["battery_voltage"] *= 0.6
@@ -357,7 +357,7 @@ def main():
     if st.session_state.data:
         dashboard.update_display(st.session_state.data, st.session_state.anomaly)
 
-    time.sleep(1)
+    time.sleep(10)
     st.rerun()
 
 if __name__ == "__main__":
