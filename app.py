@@ -26,11 +26,13 @@ DB_CONFIG = {
     "database": os.getenv("DB_NAME"),
     "table": os.getenv("DB_TABLE")
 }
+
 ALERT_CONFIG = {
-    "sender": os.getenv("ALERT_SENDER"),
-    "receiver": os.getenv("ALERT_RECEIVER"),
-    "password": os.getenv("ALERT_PASSWORD")
+    "sender": os.getenv("EMAIL_SENDER"),
+    "receiver": os.getenv("EMAIL_RECEIVER"),
+    "password": os.getenv("EMAIL_PASSWORD")
 }
+
 
 class DatabaseManager:
     def __enter__(self):
@@ -121,7 +123,7 @@ class DataGenerator:
         for param, config in self.param_config.items():
             if param != "timestamp":
                 data[param] = self._generate_value(config)
-        if random.random() < 0.07:
+        if random.random() < 0.50:
             anomaly_type = random.choice(["power", "thermal", "aocs", "payload"])
             if anomaly_type == "power":
                 data["battery_voltage"] *= 0.6
@@ -193,7 +195,7 @@ class AlertSystem:
             msg.attach(MIMEText(body, 'plain'))
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login(ALERT_CONFIG["sender"], ALERT_CONFIG["password"])
+            server.login(ALERT_CONFIG.get("sender"), ALERT_CONFIG.get("password"))
             server.sendmail(ALERT_CONFIG["sender"], ALERT_CONFIG["receiver"], msg.as_string())
             server.quit()
         except Exception as e:
@@ -355,7 +357,7 @@ def main():
     if st.session_state.data:
         dashboard.update_display(st.session_state.data, st.session_state.anomaly)
 
-    time.sleep(10)
+    time.sleep(1)
     st.rerun()
 
 if __name__ == "__main__":
