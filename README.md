@@ -28,7 +28,7 @@ Real-time digital twin platform for satellite health monitoring, simulating NASA
 | **Communications**     | Signal Strength, Data Rate          | -75--62 dBm, 95-105    | dBm    |
 | **Payload**            | Camera Temp, Data Quality           | 12-18°C, 97-100%       | °C, %  |
 
-[Full Parameter Documentation](DATASET.md)
+[Full Parameter Documentation](Roadmap.md)
 
 
 ## Usage
