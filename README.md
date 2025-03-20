@@ -58,8 +58,7 @@ https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=shari
 
 
 For a complete walkthrough of the system, watch the **Satellite Health Monitoring Dashboard Demo**:
-[]\([https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing](https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing))
-
+[]\([https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing]
 ## Improvement
 
 - Retrain the model using the existing dataset to achieve optimal performance.
