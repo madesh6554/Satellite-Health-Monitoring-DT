@@ -1,0 +1,12 @@
+"battery_voltage", "battery_current", "state_of_charge",
+"solar_panel_voltage", "solar_panel_current", "solar_panel_efficiency",
+"power_consumption", "internal_temp", "battery_temp",
+"solar_panel_temp", "radiator_temp", "radiator_efficiency",
+"thermal_gradient", "position", "velocity", "gyroscope",
+"magnetometer_rpm", "reaction_wheel_rpm", "thruster_status",
+"signal_strength", "data_rate", "packet_loss", "payload_power",
+"sensor_data_rate", "camera_temp", "data_quality", "error_flags",
+"latency", "bit_error_rate", "sensor_discrepancies",
+"thruster_malfunctions", "thruster_efficiency", "orientation",
+"throughput", "power_anomalies", "thermal_anomalies",
+"aocs_faults", "payload_failures"
