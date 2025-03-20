@@ -58,7 +58,7 @@ https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=shari
 
 
 For a complete walkthrough of the system, watch the **Satellite Health Monitoring Dashboard Demo**:
-[]\(Satellite Health Monitoring Dashboard Sample Video.mp4)
+[]\(https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing)
 
 ## Improvement
 
