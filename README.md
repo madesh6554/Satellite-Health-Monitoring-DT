@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/dashboard.png" alt="Dashboard Preview" width="800">
+  <img src="https://github.com/madesh6554/Satellite-Health-Monitoring-DT/blob/main/Dashboard.png" alt="Dashboard Preview" width="800">
 </div>
 
 ## Overview 🌟
