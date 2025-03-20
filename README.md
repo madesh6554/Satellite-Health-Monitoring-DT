@@ -51,13 +51,9 @@ Real-time digital twin platform for satellite health monitoring, simulating NASA
 
 ## Demo Video
 
-https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing
+https://github.com/madesh6554/AI-Powered-Digital-Twin-Prototype-for-Satellite-Health-Monitoring/blob/main/AI-Powered%20Digital%20Twin%20Prototype%20for%20Satellite%20Health%20Monitoring/Sample%20Output/Sample%20Ouptput%20Images%20%26%20Videos/Satellite%20Health%20Monitoring%20Dashboard%20Sample%20Video.mp4
 
-
-
-
-
-For a complete walkthrough of the system, watch the **Satellite Health Monitoring Dashboard Demo**:
+For a complete walkthrough of the system, watch the **Satellite Health Monitoring Dashboard Demo full vedio**:
 []\([https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing]
 ## Improvement
 
