@@ -102,7 +102,7 @@ This project is an **AI-powered Digital Twin Prototype** designed for **Satellit
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/65d1db0a-2886-4d19-9337-891f92c0e46a
+https://drive.google.com/file/d/1OGIzvOFr7qUyTsfaVgb7ECJQdAGLfCv6/view?usp=sharing
 
 
 
