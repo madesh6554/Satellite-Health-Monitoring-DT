@@ -30,57 +30,6 @@ Real-time digital twin platform for satellite health monitoring, simulating NASA
 
 [Full Parameter Documentation](DATASET.md)
 
-## Installation ⚙️
-```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd satellite-digital-twin
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment
-cp .env.example .env
-
-
-
-
-
-
-
-
-
-# AI-Powered Digital Twin Prototype for Satellite Health Monitoring
-
-## Overview
-
-This project is an **AI-powered Digital Twin Prototype** designed for **Satellite Health Monitoring**. It leverages advanced AI models, real-time data processing, and visualization techniques to assess the health status of satellites and provide predictive insights to prevent system failures.
-
-## Features
-
-- **Real-time Satellite Health Monitoring**
-- **Predictive Analytics** for anomaly detection
-- **Interactive Dashboard** (built with Streamlit)
-- **Automated Alert System**
-- **Visualization of Satellite Metrics**
-
-
-
-## Installation
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-repo/satellite-health-monitoring.git
-   cd satellite-health-monitoring
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit Dashboard:
-   ```sh
-   streamlit run app.py
-   ```
 
 ## Usage
 
@@ -118,3 +67,15 @@ For a complete walkthrough of the system, watch the **Satellite Health Monitorin
 - Enhance the dashboard with improved visualizations for better insights and presentation.
 - Connect the dashboard to MySQL for real-time data access and updates.
 
+
+## Installation ⚙️
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd satellite-digital-twin
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment
+cp .env.example .env
