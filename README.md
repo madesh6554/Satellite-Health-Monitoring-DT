@@ -11,6 +11,10 @@
 ## Overview 🌟
 Real-time digital twin platform for satellite health monitoring, simulating NASA-style operations with 40+ parameters. Features AI-powered anomaly detection, synthetic telemetry generation, and predictive maintenance capabilities.
 
+🚀 Live Demo:
+✅ The project is successfully deployed on Streamlit and can be accessed here:
+🔗 Satellite Health Monitoring Dashboard(https://satellite-health-monitoring-dt-bom4jaf2gnukue8yizjeak.streamlit.app/)
+
 ## Key Features 🚀
 - 🛰️ Synthetic data generation for 40+ satellite parameters
 - 🔍 Isolation Forest anomaly detection (95% accuracy)
